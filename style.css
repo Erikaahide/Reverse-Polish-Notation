@@ -41,6 +41,30 @@ button:hover {
     background-color: var(--info-color);
 }
 
+.calculator {
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--radius);
+    border: var(--border);
+    background-color: var(--soft-color);
+    cursor: pointer;
+  }
+  
+  .operator {
+    background-color: var(--accent-color);
+  }
+
 .hint {
     color: var(--extra-info-color);
 }

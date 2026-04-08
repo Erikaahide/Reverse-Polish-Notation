@@ -1,6 +1,6 @@
-const input = document.getElementById("userInput");
-const btn = document.getElementById("btnCalculate");
-const result = document.getElementById("result");
+const input= document.getElementById("userInput");
+const btn= document.getElementById("btnCalculate");
+const result= document.getElementById("result");
 
 btn.addEventListener("click", () => {
     const value = input.value.trim();
@@ -10,7 +10,7 @@ btn.addEventListener("click", () => {
       return;
     }
   
-    // convertir string a un array
+    // convertir string → array
     const tokens = value.split(" ");
   
     try {
