@@ -1,0 +1,75 @@
+:root {
+    --primary-color: #2f2a5a;
+    --info-color: #dfccec;
+    --btn-color: #6c6aa6;
+    --btn-content: #fafafa;
+    --extra-info-color: #91c8f8;
+    --background-color: #f4f7fb;
+    --border: 1.5px solid var(--primary-color);
+    --radius: 60px;
+    --font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+button {
+    color: var(--btn-content);
+    background-color: var(--btn-color);
+    padding: 10px;
+    border-radius: var(--radius);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+input {
+    width: 50%;
+    margin: 15px;
+    border-radius: var(--radius);
+    border: var(--border);
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+input:hover,
+button:hover {
+    background-color: var(--info-color);
+}
+
+.hint {
+    color: var(--extra-info-color);
+}
+
+div {
+    background-color: var(--info-color);
+    border: var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin: 10px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    color: var(--extra-info-color);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    color: var(--extra-info-color);
+    opacity: 70%;
+}
