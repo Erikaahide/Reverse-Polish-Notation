@@ -4,7 +4,7 @@
 
 
 ## Reverse Polish Notation**  
-Hi, this project was created using plain JavaScript (no frameworks).This showcases key concepts as stack (LIFO: Last In, First Out), tokenizaiton, functional thinkig, error handling, also *edge cases* as empty input, invalid token, insufficient operands, division by zero.
+Hi, this project was created using plain JavaScript (no frameworks).This showcases key concepts as stack (LIFO: Last In, First Out), tokenizaiton, functional thinkig, error handling, fallabck error, early return, also *edge cases* as empty input, invalid token, insufficient operands, division by zero.
 
 **Tech Stack**  
 

@@ -1,0 +1,14 @@
+Primero comprendo el funcioanmiento de NPI (stack LIFO: Last In, First Out)
+
+Validar input: un array de Tokens que son números (positivos o negativos) y operadores limitados a "+", "-", "*", "/"
+Comienzo a apilar valores validos
+Cada que encuentro un operador 
+Sacar los ultimos dos valores (depende del estado de la pila)
+Ejecuto la operacion (La división debe truncar en 0)
+Evaluar en ejecucion si la expresion cumple con formato para correcta ejcución
+Guardo ese valor obtenido 
+Ejecuta el resultado total o sea funcion main ejecuta funicones auxiliares 
+
+Creó la funcion de NPI
+Escribo los test que debe pasar, uso throw new error para detener ejecución
+Escribo las validaciones correspondientes con logs adecuados 
